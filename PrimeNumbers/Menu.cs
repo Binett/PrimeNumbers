@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Threading;
 using static PrimeNumbers.Helpers.InputValidation;
 
 namespace PrimeNumbers

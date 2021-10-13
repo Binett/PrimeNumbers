@@ -9,7 +9,7 @@ namespace PrimeNumbers
         //Jag valde jag för uppgiften att gå på 
         //SortedSet av den anledningen att den håller unika värden och sorterar.
         public static readonly SortedSet<int> listOfPrimes = new();
-               
+
 
         /// <summary>
         /// Kontrollerar om värdet från användaren är primtal
@@ -74,8 +74,8 @@ namespace PrimeNumbers
             bool found = false;
             while (!found)
             {
-                if (highestNumber == int.MaxValue) break;               
-                highestNumber++;               
+                if (highestNumber == int.MaxValue) break;
+                highestNumber++;
                 if (IsPrimeNumber(highestNumber))
                 {
                     found = true;
